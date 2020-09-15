@@ -139,6 +139,45 @@
     
     
     <article
+  id="pag-test-img"
+  class="article article-type-pag"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h2 itemprop="name">
+  <a class="article-title" href="/2020/09/15/test-img/"
+    >test_img</a> 
+</h2>
+ 
+
+    </header>
+     
+    <div class="article-meta">
+      <a href="/2020/09/15/test-img/" class="article-date">
+  <time datetime="2020-09-15T15:48:26.000Z" itemprop="datePublished">2020-09-15</time>
+</a>    
+    </div>
+       
+
+    <!-- copyright -->
+    
+    <footer class="article-footer">
+       
+    </footer>
+  </div>
+
+    
+ 
+   
+</article>
+
+    
+    <article
   id="post-第一篇博客"
   class="article article-type-post"
   itemscope
@@ -162,14 +201,7 @@
   <time datetime="2020-09-08T11:05:04.000Z" itemprop="datePublished">2020-09-08</time>
 </a>    
     </div>
-      
-    <div class="article-entry" itemprop="articleBody">
        
-   
-      <!-- reward -->
-      
-    </div>
-    
 
     <!-- copyright -->
     
@@ -208,29 +240,7 @@
   <time datetime="2020-09-08T05:22:25.817Z" itemprop="datePublished">2020-09-08</time>
 </a>    
     </div>
-      
-    <div class="article-entry" itemprop="articleBody">
        
-  <h1 id="m3u8笔记"><a href="#m3u8笔记" class="headerlink" title="m3u8笔记"></a>m3u8笔记</h1><p><strong>什么是 m3u8</strong></p>
-<p>说到 m3u8 就要先说说 HLS（HTTP Live Streaming）。HLS 是 Apple 公司针对 iPhone、iPod、iTouch 等移动设备，而研发的基于 HTTP 协议的流媒体解决方案。在 HLS 技术中，Web 服务器可以向客户端提供接近实时的音视频流，但是它又是使用的标准的 HTTP 协议。所以基本上，比较大型的点播直播类服务，都是基于 HLS 的。</p>
-<p>而该技术的原理，就是将视频文件或者视频流，进行切片（ts文件），并建立索引文件（m3u8），它支持的视频流编码为 H.264，音频流编码为 AAC。</p>
-<p>简单来说，基于 HLS 的视频流，会将完整的视频，切割成一个个比较小的视频片段（ts 文件），然后根据协议组合成一个 m3u8 文件。这些比较小的 ts 文件，是可以单独播放的。而视频播放器，拿到 m3u8 文件之后，根据对其内 ts 片段的索引，连续播放不同的视频片段，来达到流畅的播放效果。</p>
-<p> <strong>下载的 m3u8 文件</strong></p>
-<p>这种 m3u8 文件就还是比较清晰的，能看到它一个个的片段。但是需要注意的是，这里的片段，全部是基于域名的相对地址，也就是说，这样一个 m3u8 文件，你丢到播放器里，是无法播放的，但是如果你记录了原始下载这个 m3u8 的链接，它在播放器里是可以正常播放的。</p>
-<p>*<em>ffmpeg下载 m3u8 *</em></p>
-<p>ffmpeg 是一套可以用来记录、转换音视频，并将其转化为流的开源程序，采用 LGPL 或 GPL 协议许可证书，很多大型的音视频软件，内部都是基于 ffmpeg 的。不了解不要紧，总之知道它对操作 ffmpeg 非常的方便。</p>
-<p>如果本机上没有，就需要安装了。在 Mac 下，使用 homebrew 下载 ffmpeg 非常的方便。</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew install ffmpeg</span><br></pre></td></tr></table></figure>
-
-<p>配置好 ffmpeg 的环境之后，只需要一行命令，就可以自动下载一个远端的 m3u8 文件，并且以一个 mp4 格式保存。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ffmpeg -i &quot;m3u8_file_uri&quot; &quot;save_video.mp4&quot;</span><br></pre></td></tr></table></figure>
-
-<p>到此，如果 m3u8 的链接正确可播放，就会开始下载，等待下载完成就可以了，最终会在指定目录下，保存 save_video.mp4 文件，它就是最终我们下载的离线视频文件。</p>
- 
-      <!-- reward -->
-      
-    </div>
-    
 
     <!-- copyright -->
     
@@ -269,14 +279,7 @@
   <time datetime="2020-09-08T05:16:46.000Z" itemprop="datePublished">2020-09-08</time>
 </a>    
     </div>
-      
-    <div class="article-entry" itemprop="articleBody">
        
-   
-      <!-- reward -->
-      
-    </div>
-    
 
     <!-- copyright -->
     
@@ -315,14 +318,7 @@
   <time datetime="2020-09-08T05:16:46.000Z" itemprop="datePublished">2020-09-08</time>
 </a>    
     </div>
-      
-    <div class="article-entry" itemprop="articleBody">
        
-   
-      <!-- reward -->
-      
-    </div>
-    
 
     <!-- copyright -->
     
@@ -361,29 +357,7 @@
   <time datetime="2020-06-07T03:57:08.348Z" itemprop="datePublished">2020-06-07</time>
 </a>    
     </div>
-      
-    <div class="article-entry" itemprop="articleBody">
        
-  <h1 id="m3u8笔记"><a href="#m3u8笔记" class="headerlink" title="m3u8笔记"></a>m3u8笔记</h1><p><strong>什么是 m3u8</strong></p>
-<p>说到 m3u8 就要先说说 HLS（HTTP Live Streaming）。HLS 是 Apple 公司针对 iPhone、iPod、iTouch 等移动设备，而研发的基于 HTTP 协议的流媒体解决方案。在 HLS 技术中，Web 服务器可以向客户端提供接近实时的音视频流，但是它又是使用的标准的 HTTP 协议。所以基本上，比较大型的点播直播类服务，都是基于 HLS 的。</p>
-<p>而该技术的原理，就是将视频文件或者视频流，进行切片（ts文件），并建立索引文件（m3u8），它支持的视频流编码为 H.264，音频流编码为 AAC。</p>
-<p>简单来说，基于 HLS 的视频流，会将完整的视频，切割成一个个比较小的视频片段（ts 文件），然后根据协议组合成一个 m3u8 文件。这些比较小的 ts 文件，是可以单独播放的。而视频播放器，拿到 m3u8 文件之后，根据对其内 ts 片段的索引，连续播放不同的视频片段，来达到流畅的播放效果。</p>
-<p> <strong>下载的 m3u8 文件</strong></p>
-<p>这种 m3u8 文件就还是比较清晰的，能看到它一个个的片段。但是需要注意的是，这里的片段，全部是基于域名的相对地址，也就是说，这样一个 m3u8 文件，你丢到播放器里，是无法播放的，但是如果你记录了原始下载这个 m3u8 的链接，它在播放器里是可以正常播放的。</p>
-<p>*<em>ffmpeg下载 m3u8 *</em></p>
-<p>ffmpeg 是一套可以用来记录、转换音视频，并将其转化为流的开源程序，采用 LGPL 或 GPL 协议许可证书，很多大型的音视频软件，内部都是基于 ffmpeg 的。不了解不要紧，总之知道它对操作 ffmpeg 非常的方便。</p>
-<p>如果本机上没有，就需要安装了。在 Mac 下，使用 homebrew 下载 ffmpeg 非常的方便。</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew install ffmpeg</span><br></pre></td></tr></table></figure>
-
-<p>配置好 ffmpeg 的环境之后，只需要一行命令，就可以自动下载一个远端的 m3u8 文件，并且以一个 mp4 格式保存。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ffmpeg -i &quot;m3u8_file_uri&quot; &quot;save_video.mp4&quot;</span><br></pre></td></tr></table></figure>
-
-<p>到此，如果 m3u8 的链接正确可播放，就会开始下载，等待下载完成就可以了，最终会在指定目录下，保存 save_video.mp4 文件，它就是最终我们下载的离线视频文件。</p>
- 
-      <!-- reward -->
-      
-    </div>
-    
 
     <!-- copyright -->
     
@@ -422,14 +396,7 @@
   <time datetime="2020-06-07T03:55:14.000Z" itemprop="datePublished">2020-06-07</time>
 </a>    
     </div>
-      
-    <div class="article-entry" itemprop="articleBody">
        
-   
-      <!-- reward -->
-      
-    </div>
-    
 
     <!-- copyright -->
     
@@ -468,27 +435,7 @@
   <time datetime="2020-06-07T03:46:26.892Z" itemprop="datePublished">2020-06-07</time>
 </a>    
     </div>
-      
-    <div class="article-entry" itemprop="articleBody">
        
-  <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
- 
-      <!-- reward -->
-      
-    </div>
-    
 
     <!-- copyright -->
     
@@ -597,11 +544,11 @@
     </li>
     
     <li class="nav-item">
-      <a class="nav-item-link" href="/tags/%E6%97%85%E8%A1%8C/">旅行</a>
+      <a class="nav-item-link" href="/travial">旅行</a>
     </li>
     
     <li class="nav-item">
-      <a class="nav-item-link" href="http://shenyu-vip.lofter.com" target="_blank" rel="noopener">摄影</a>
+      <a class="nav-item-link" href="/photos">摄影</a>
     </li>
     
     <li class="nav-item">
