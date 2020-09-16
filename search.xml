@@ -16,6 +16,8 @@
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
 ]]></content>
       <categories>
         <category>java</category>
@@ -26,12 +28,12 @@
       </tags>
   </entry>
   <entry>
-    <title>test_img</title>
+    <title>我的宝宝</title>
     <url>/2020/09/15/test-img/</url>
-    <content><![CDATA[<p><img src="/2020/09/15/test-img/oss.png" alt></p>
+    <content><![CDATA[<p><img src="/2020/09/15/test-img/shilian.jpg" alt></p>
 ]]></content>
       <categories>
-        <category>中国人</category>
+        <category>败家子</category>
       </categories>
       <tags>
         <tag>image</tag>
