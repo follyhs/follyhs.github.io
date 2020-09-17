@@ -6,7 +6,7 @@
   <link href="http://yoursite.com/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-09-17T16:58:10.057Z</updated>
+  <updated>2020-09-17T18:06:19.580Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -18,13 +18,13 @@
   
   <entry>
     <title>tcpdump</title>
-    <link href="http://yoursite.com/2020/09/17/tcpdump/"/>
-    <id>http://yoursite.com/2020/09/17/tcpdump/</id>
-    <published>2020-09-17T05:06:17.000Z</published>
-    <updated>2020-09-17T16:58:10.057Z</updated>
+    <link href="http://yoursite.com/2020/09/14/tcpdump/"/>
+    <id>http://yoursite.com/2020/09/14/tcpdump/</id>
+    <published>2020-09-14T05:06:17.000Z</published>
+    <updated>2020-09-17T18:06:19.580Z</updated>
     
     
-    <summary type="html">&lt;p&gt;如果你抓过 TCP 的包，你一定听说过图形化界面软件 wireshark，tcpdump 则是一个命令行的网络流量分析工具，功能非常强大。尤其是做后台开发的同学要在服务器上定位一些黑盒的应用，tcpdump 是唯一的选择。这篇文章会重点介绍基本使用、过滤条件、保存文件几个方面。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;tcpdump 则是一个命令行的网络流量分析工具，功能非常强大。他能快速定位到问题出在服务端还是客户端，这篇文章会重点介绍基本使用、过滤条件、保存文件几个方面。&lt;/p&gt;</summary>
     
     
     
