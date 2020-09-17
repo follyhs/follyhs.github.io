@@ -155,7 +155,7 @@
 <p>显示所有的 RST 包</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tcpdump &#39;tcp[13] &amp; 4 !&#x3D; 0&#39;</span><br></pre></td></tr></table></figure>
 <p>要弄懂这个语句，必须要清楚 TCP 首部中 offset 为 13 的字节的第 3 比特位就是 RST</p>
-<p>下图是 TCP 头的结构<br><img src="http://note.youdao.com/yws/res/2199/B08B6BCAAC524D0F9487949C0AE371B0" alt="image"><br>tcp[13] 表示 tcp 头部中偏移量为 13 字节，如上图中红色框的部分，</p>
+<p>下图是 TCP 头的结构<br><img src="https://raw.githubusercontent.com/zhanghaisong911/picBed/master/img/20200918001914.png" alt><br>tcp[13] 表示 tcp 头部中偏移量为 13 字节，如上图中红色框的部分，</p>
 <p>!=0 表示当前 bit 置 1，即存在此标记位，跟 4 做与运算是因为 RST 在 TCP 的标记位的位置在第 3 位(00000100)</p>
 <p>如果想过滤 SYN + ACK 包，那就是 SYN 和 ACK 包同时置位（00010010），写成 tcpdump 语句就是</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tcpdump &#39;tcp[13] &amp; 18 !&#x3D; 0&#39;</span><br></pre></td></tr></table></figure>
@@ -250,6 +250,15 @@
 
    
   <nav class="article-nav">
+    
+      <a href="/2020/09/17/hello-world/" class="article-nav-link">
+        <strong class="article-nav-caption">上一篇</strong>
+        <div class="article-nav-title">
+          
+            Hello World
+          
+        </div>
+      </a>
     
     
       <a href="/2020/09/17/m3u8%E7%AC%94%E8%AE%B0/" class="article-nav-link">
@@ -404,10 +413,6 @@
     
     <li class="nav-item">
       <a class="nav-item-link" href="/photos">摄影</a>
-    </li>
-    
-    <li class="nav-item">
-      <a class="nav-item-link" href="/friends">友链</a>
     </li>
     
     <li class="nav-item">
