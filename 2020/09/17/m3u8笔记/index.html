@@ -42,6 +42,9 @@
   <div id="app">
     
       
+      <canvas width="1777" height="841"
+        style="position: fixed; left: 0px; top: 0px; z-index: 99999; pointer-events: none;"></canvas>
+      
     <main class="content on">
       <section class="outer">
   <article
@@ -63,8 +66,8 @@
     </header>
      
     <div class="article-meta">
-      <a href="/2020/06/07/m3u8%E7%AC%94%E8%AE%B0/" class="article-date">
-  <time datetime="2020-06-07T03:57:08.348Z" itemprop="datePublished">2020-06-07</time>
+      <a href="/2020/09/17/m3u8%E7%AC%94%E8%AE%B0/" class="article-date">
+  <time datetime="2020-09-17T04:40:39.484Z" itemprop="datePublished">2020-09-17</time>
 </a>   
 <div class="word_count">
     <span class="post-time">
@@ -97,6 +100,7 @@
        
   <h1 id="m3u8笔记"><a href="#m3u8笔记" class="headerlink" title="m3u8笔记"></a>m3u8笔记</h1><p><strong>什么是 m3u8</strong></p>
 <p>说到 m3u8 就要先说说 HLS（HTTP Live Streaming）。HLS 是 Apple 公司针对 iPhone、iPod、iTouch 等移动设备，而研发的基于 HTTP 协议的流媒体解决方案。在 HLS 技术中，Web 服务器可以向客户端提供接近实时的音视频流，但是它又是使用的标准的 HTTP 协议。所以基本上，比较大型的点播直播类服务，都是基于 HLS 的。</p>
+<a id="more"></a>
 <p>而该技术的原理，就是将视频文件或者视频流，进行切片（ts文件），并建立索引文件（m3u8），它支持的视频流编码为 H.264，音频流编码为 AAC。</p>
 <p>简单来说，基于 HLS 的视频流，会将完整的视频，切割成一个个比较小的视频片段（ts 文件），然后根据协议组合成一个 m3u8 文件。这些比较小的 ts 文件，是可以单独播放的。而视频播放器，拿到 m3u8 文件之后，根据对其内 ts 片段的索引，连续播放不同的视频片段，来达到流畅的播放效果。</p>
 <p> <strong>下载的 m3u8 文件</strong></p>
@@ -172,7 +176,7 @@
     <a class="modal-close" href="javascript:;"><i class="ri-close-circle-line"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://yoursite.com/2020/06/07/m3u8%E7%AC%94%E8%AE%B0/" alt="微信分享二维码">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://yoursite.com/2020/09/17/m3u8%E7%AC%94%E8%AE%B0/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -183,19 +187,10 @@
    
   <nav class="article-nav">
     
-      <a href="/2020/09/08/categories/test/" class="article-nav-link">
-        <strong class="article-nav-caption">上一篇</strong>
-        <div class="article-nav-title">
-          
-            test
-          
-        </div>
-      </a>
     
-    
-      <a href="/2020/06/07/article-title/" class="article-nav-link">
+      <a href="/2020/09/16/hello-world/" class="article-nav-link">
         <strong class="article-nav-caption">下一篇</strong>
-        <div class="article-nav-title">article title</div>
+        <div class="article-nav-title">Hello World</div>
       </a>
     
   </nav>
@@ -559,13 +554,13 @@
 
 <!-- ClickLove -->
 
-
-<script src="/js/clickLove.js"></script>
-
-
 <!-- ClickBoom1 -->
 
 <!-- ClickBoom2 -->
+
+
+<script src="/js/clickBoom2.js"></script>
+
 
 <!-- CodeCopy -->
 
@@ -641,7 +636,7 @@
     
     
     <iframe frameborder="no" border="1" marginwidth="0" marginheight="0" width="200" height="52"
-        src="//music.163.com/outchain/player?type=2&id=22707008&auto=1&height=32"></iframe>
+        src="//music.163.com/outchain/player?type=2&id=500660564&auto=1&height=32"></iframe>
 </div>
 
 <style>
