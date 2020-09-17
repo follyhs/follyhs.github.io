@@ -6,7 +6,7 @@
   <link href="http://yoursite.com/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-09-17T04:40:39.485Z</updated>
+  <updated>2020-09-17T05:13:52.438Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>tcpdump</title>
+    <link href="http://yoursite.com/2020/09/17/tcpdump/"/>
+    <id>http://yoursite.com/2020/09/17/tcpdump/</id>
+    <published>2020-09-17T05:06:17.000Z</published>
+    <updated>2020-09-17T05:13:52.438Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;如果你抓过 TCP 的包，你一定听说过图形化界面软件 wireshark，tcpdump 则是一个命令行的网络流量分析工具，功能非常强大。尤其是做后台开发的同学要在服务器上定位一些黑盒的应用，tcpdump 是唯一的选择。这篇文章会重点介绍基本使用、过滤条件、保存文件几个方面。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="网络" scheme="http://yoursite.com/categories/%E7%BD%91%E7%BB%9C/"/>
+    
+    
+    <category term="工具" scheme="http://yoursite.com/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
   
   <entry>
     <title>m3u8笔记</title>
