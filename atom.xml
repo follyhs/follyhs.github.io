@@ -6,7 +6,7 @@
   <link href="http://yoursite.com/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-09-17T18:09:40.280Z</updated>
+  <updated>2020-09-18T16:20:59.224Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,15 +17,41 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>redis源码之sds</title>
+    <link href="http://yoursite.com/2020/05/03/redis%E6%BA%90%E7%A0%81%E4%B9%8Bsds/"/>
+    <id>http://yoursite.com/2020/05/03/redis%E6%BA%90%E7%A0%81%E4%B9%8Bsds/</id>
+    <published>2020-05-02T18:09:40.000Z</published>
+    <updated>2020-09-18T16:20:59.224Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;从开始工作就开始使用Redis，也有一段时间了，但都只是停留在使用阶段，没有往更深的角度探索，每次想读源码都止步在阅读书籍上，因为看完书很快又忘了，这次逼自己先读代码。因为个人觉得写作需要阅读文字来增强灵感，那么写代码的，就阅读更多代码来增强灵感吧。&lt;/p&gt;
+&lt;p&gt;redis的实现原理，在《Redis设计与实现》一书中讲得很详细了，但是想通过结合代码的形式再深入探索，加深自己的理解，以redis3.0做参考，现在将自己探索的心得写在这儿。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="redis" scheme="http://yoursite.com/categories/redis/"/>
+    
+    
+    <category term="redis源码" scheme="http://yoursite.com/tags/redis%E6%BA%90%E7%A0%81/"/>
+    
+  </entry>
+  
+  <entry>
     <title>tcpdump</title>
-    <link href="http://yoursite.com/2020/09/18/tcpdump/"/>
-    <id>http://yoursite.com/2020/09/18/tcpdump/</id>
-    <published>2020-09-17T18:09:40.000Z</published>
-    <updated>2020-09-17T18:09:40.280Z</updated>
+    <link href="http://yoursite.com/2020/05/01/tcpdump/"/>
+    <id>http://yoursite.com/2020/05/01/tcpdump/</id>
+    <published>2020-04-30T18:09:40.000Z</published>
+    <updated>2020-09-18T14:49:05.384Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;如果你抓过 TCP 的包，你一定听说过图形化界面软件 wireshark，tcpdump 则是一个命令行的网络流量分析工具，功能非常强大。尤其是做后台开发的同学要在服务器上定位一些黑盒的应用，tcpdump 是唯一的选择。这篇文章会重点介绍基本使用、过滤条件、保存文件几个方面。&lt;/p&gt;</summary>
     
     
     
+    <category term="网络" scheme="http://yoursite.com/categories/%E7%BD%91%E7%BB%9C/"/>
     
+    
+    <category term="工具" scheme="http://yoursite.com/tags/%E5%B7%A5%E5%85%B7/"/>
     
   </entry>
   
