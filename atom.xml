@@ -6,7 +6,7 @@
   <link href="http://yoursite.com/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-09-18T16:20:59.224Z</updated>
+  <updated>2020-09-20T16:43:04.775Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,30 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>redis源码之sds</title>
+    <title>redis源码之dict</title>
     <link href="http://yoursite.com/2020/05/03/redis%E6%BA%90%E7%A0%81%E4%B9%8Bsds/"/>
     <id>http://yoursite.com/2020/05/03/redis%E6%BA%90%E7%A0%81%E4%B9%8Bsds/</id>
     <published>2020-05-02T18:09:40.000Z</published>
-    <updated>2020-09-18T16:20:59.224Z</updated>
+    <updated>2020-09-20T16:43:04.775Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Redis 的字典采用哈希表作为底层实现， 一个哈希表里面可以有多个哈希表节点， 而每个哈希表节点就保存了字典中的一个键值对。依次来分析一下哈希表、哈希节点、以及字典的结构。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="redis" scheme="http://yoursite.com/categories/redis/"/>
+    
+    
+    <category term="redis源码" scheme="http://yoursite.com/tags/redis%E6%BA%90%E7%A0%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>redis源码之sds</title>
+    <link href="http://yoursite.com/2020/05/03/redis%E6%BA%90%E7%A0%81%E4%B9%8Bdict/"/>
+    <id>http://yoursite.com/2020/05/03/redis%E6%BA%90%E7%A0%81%E4%B9%8Bdict/</id>
+    <published>2020-05-02T18:09:40.000Z</published>
+    <updated>2020-09-20T15:33:38.364Z</updated>
     
     
     <summary type="html">&lt;p&gt;从开始工作就开始使用Redis，也有一段时间了，但都只是停留在使用阶段，没有往更深的角度探索，每次想读源码都止步在阅读书籍上，因为看完书很快又忘了，这次逼自己先读代码。因为个人觉得写作需要阅读文字来增强灵感，那么写代码的，就阅读更多代码来增强灵感吧。&lt;/p&gt;
