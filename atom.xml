@@ -6,7 +6,7 @@
   <link href="http://yoursite.com/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-09-20T17:21:48.429Z</updated>
+  <updated>2020-09-21T09:53:25.144Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,52 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>音频属性</title>
+    <link href="http://yoursite.com/2020/09/21/%E9%9F%B3%E9%A2%91%E5%B1%9E%E6%80%A7/"/>
+    <id>http://yoursite.com/2020/09/21/%E9%9F%B3%E9%A2%91%E5%B1%9E%E6%80%A7/</id>
+    <published>2020-09-21T09:53:09.407Z</published>
+    <updated>2020-09-21T09:53:25.144Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;例：根据一个文件的大小推算出文件时长&lt;/p&gt;
+&lt;p&gt;譬如 “Windows XP 启动.wav” 的文件长度是 424,644 字节, 它是 “22050HZ / 16bit / 立体声” 格式(这可以从其 “属性-&amp;gt;摘要”</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>redis源码之skiplist</title>
+    <link href="http://yoursite.com/2020/05/09/redis%E6%BA%90%E7%A0%81%E4%B9%8Bskiplist/"/>
+    <id>http://yoursite.com/2020/05/09/redis%E6%BA%90%E7%A0%81%E4%B9%8Bskiplist/</id>
+    <published>2020-05-08T18:09:40.000Z</published>
+    <updated>2020-09-21T17:50:48.162Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;跳表（skiplist）是一个特殊的链表，相比一般的链表，有更高的查找效率，其效率可比拟于二叉查找树。这种数据结构我在一般的数据结构和算法书籍中没有见过，但他确实是一种巧妙的结构，可以支持快熟地增删改查，写起来也不复杂甚至可以替代红黑树。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="redis" scheme="http://yoursite.com/categories/redis/"/>
+    
+    
+    <category term="redis源码" scheme="http://yoursite.com/tags/redis%E6%BA%90%E7%A0%81/"/>
+    
+  </entry>
+  
+  <entry>
     <title>redis源码之dict</title>
-    <link href="http://yoursite.com/2020/05/03/redis%E6%BA%90%E7%A0%81%E4%B9%8Bsds/"/>
-    <id>http://yoursite.com/2020/05/03/redis%E6%BA%90%E7%A0%81%E4%B9%8Bsds/</id>
-    <published>2020-05-02T18:09:40.000Z</published>
-    <updated>2020-09-20T17:21:48.429Z</updated>
+    <link href="http://yoursite.com/2020/05/05/redis%E6%BA%90%E7%A0%81%E4%B9%8Bdict/"/>
+    <id>http://yoursite.com/2020/05/05/redis%E6%BA%90%E7%A0%81%E4%B9%8Bdict/</id>
+    <published>2020-05-04T18:09:40.000Z</published>
+    <updated>2020-09-21T17:11:01.640Z</updated>
     
     
     <summary type="html">&lt;p&gt;Redis 的字典采用哈希表作为底层实现， 一个哈希表里面可以有多个哈希表节点， 而每个哈希表节点就保存了字典中的一个键值对。依次来分析一下哈希表、哈希节点、以及字典的结构。&lt;/p&gt;</summary>
@@ -37,10 +78,10 @@
   
   <entry>
     <title>redis源码之sds</title>
-    <link href="http://yoursite.com/2020/05/03/redis%E6%BA%90%E7%A0%81%E4%B9%8Bdict/"/>
-    <id>http://yoursite.com/2020/05/03/redis%E6%BA%90%E7%A0%81%E4%B9%8Bdict/</id>
+    <link href="http://yoursite.com/2020/05/03/redis%E6%BA%90%E7%A0%81%E4%B9%8Bsds/"/>
+    <id>http://yoursite.com/2020/05/03/redis%E6%BA%90%E7%A0%81%E4%B9%8Bsds/</id>
     <published>2020-05-02T18:09:40.000Z</published>
-    <updated>2020-09-20T15:33:38.364Z</updated>
+    <updated>2020-09-21T05:23:46.885Z</updated>
     
     
     <summary type="html">&lt;p&gt;从开始工作就开始使用Redis，也有一段时间了，但都只是停留在使用阶段，没有往更深的角度探索，每次想读源码都止步在阅读书籍上，因为看完书很快又忘了，这次逼自己先读代码。因为个人觉得写作需要阅读文字来增强灵感，那么写代码的，就阅读更多代码来增强灵感吧。&lt;/p&gt;
